@@ -1,0 +1,12 @@
+print("why virtual environment?")
+print("because if we are using x version at present and build our project in that version and want to run same project after some years then there are chances that the functions used in x version would not be supported"
+      " in the future version. so we create a virtual environment which will run of x version in future")
+print("Commands:-")
+print("1. open powershell and go to the directory you want your virtual environment")
+print("2. pip install virtualenv")
+print("3. virtualenv name_of_environment (to install the environment with system installed version e.g., flask , sklearn:- virtualenv --system-site-packages name_of_envir)")
+print("4. set-executionpolicy remotesigned (yes)")
+print("5. .\environment_name\Scripts\ activate(to get out of the environment :- deactivate)")
+print("6. done. if want to install flask or sklearn then pip install sklearn")
+print("7. pip freeze > requirement.txt (this will tell the requirement of your x version python and other in virtual environment)")
+print("8. to install it :- pip install -r .\ requirments.txt")
